@@ -1,1 +1,23 @@
-리눅스명령어, 깃명령어
+리눅스명령어
+ls
+ls -a
+touch 파일명
+echo "출력할 문자열"
+echo "출력할 문자열" >> 파일명
+cat
+cd ..
+cd 폴더명
+
+
+깃명령어
+git init
+git status
+git add 파일명
+git add .
+git config --global user.email "이메일주소"
+git config --global user.name "필명(사용자 이름)"
+git config --list
+git commit -m "커밋 메세지"
+git log
+git checkout 해시코드(16진수 전체 또는 7자리)
+git checkout -
