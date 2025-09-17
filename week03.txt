@@ -1,6 +1,8 @@
 리눅스 명령어 
 clear
 mkdir 폴더이름
+rm 폴더명또는파일명
+rm -rf 폴더명또는파일명 : 내용이 들어있어도 강제 삭제
 
 
 깃 명령어
@@ -9,3 +11,5 @@ git clone 원격리포지토리주소 .
 git log --oneline
 git remote -v
 git remote remove origin
+git fetch
+git pull
