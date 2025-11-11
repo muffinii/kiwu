@@ -1,0 +1,106 @@
+    1  ls
+    2  pwd
+    3  hostname
+    4  date
+    5  clear
+    6  history
+    7  passwd
+    8  sudo passwd root
+    9  su root
+   10  whoami
+   11  pwd
+   12  ls
+   13  cd Downloads/
+   14  ls
+   15  cd .
+   16  cd ..
+   17  cd Downloads/
+   18  pwd
+   19  cd ..
+   20  pwd
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  pwd
+   26  cd ~
+   27  pwd
+   28  touch temp.txt
+   29  ls
+   30  cat temp.txt 
+   31  cat week04_hello.py 
+   32  echo "Hello"
+   33  echo "Hello" >> Hi.txt
+   34  cat Hi.txt
+   35  ls
+   36  rm Hi.txt
+   37  ls
+   38  pwd
+   39  mkdir week05
+   40  ls
+   41  rmdir week05/
+   42  ls
+   43  mkdir week05
+   44  cd week05/
+   45  touch test.txt
+   46  ls
+   47  cd ..
+   48  rmdir week05
+   49  rm week05/test.txt 
+   50  rmdir week05
+   51  mkdir week05
+   52  ls
+   53  pwd
+   54  touch week05/test.txt
+   55  ls week05
+   56  rm week05
+   57  rm week05/test.txt 
+   58  rm week05
+   59  touch week05/test.txt
+   60  rmdir week05/
+   61  rm -rf week05
+   62  ls -l
+   63  cat temp.txt 
+   64  ls -l
+   65  ls -a
+   66  ls -al
+   67  ls
+   68  cd /
+   69  pwd
+   70  cd ~
+   71  pwd
+   72  cd ,, 
+   73  cd ..
+   74  cd ~
+   75  cd ../..
+   76  cd ~
+   77  pwd
+   78  cd /
+   79  touch .test
+   80  cd ~
+   81  touch .test
+   82  ls
+   83  ls -a
+   84  rm .test 
+   85  ls -a
+   86  head week04_hello.py 
+   87  head -1 week04_hello.py 
+   88  tail week04_hello.py 
+   89  tail -1 week04_hello.py 
+   90  nano temp.txt
+   91  cat temp.txt
+   92  head -2 temp.txt 
+   93  tail -2 temp.txt 
+   94  cp temp.txt temp2.txt
+   95  ls
+   96  mkdir week04
+   97  mkdir week05
+   98  ls
+   99  mv week04_hello.py week04
+  100  ls
+  101  ls week04
+  102  mv *.txt week05
+  103  ls
+  104  ls week05
+  105  history
+  106  history >> week05.txt
