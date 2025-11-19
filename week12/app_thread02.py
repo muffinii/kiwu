@@ -4,7 +4,7 @@ import time
 
 led = LED(17)
 
-# LED 깜빡이는 함수(총 6초 소요)
+# LED 깜빡이는 함수
 def blink_led():
     print("LED 깜빡임 시작")
     for i in range(10):
@@ -14,7 +14,7 @@ def blink_led():
         time.sleep(0.3)
     print("LED 깜빡임 종료")
 
-# 숫자 세는 함수(총 5초 소요)
+# 숫자 세는 함수
 def count_numbers():
     print("카운팅 시작")
     for i in range(1, 11):
