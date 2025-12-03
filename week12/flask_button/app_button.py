@@ -5,6 +5,7 @@ import random
 import threading
 
 app = Flask(__name__) #객체, __name__ : 메인 함수가 실행되면 객체가 생성됨(매직메서드)
+#Flask 객체를 생성
 
 # GPIO 설정
 led = LED(17)
